@@ -1,4 +1,4 @@
-# Simple Advantage Actor Critic (A2C)
+ # Simple Advantage Actor Critic (A2C)
 
 The notebooks in this repo build an A2C from scratch in PyTorch, starting with a Monte Carlo version that takes four floats as input (Cartpole) and gradually increasing complexity until the final model, an n-step A2C with multiple actors which takes in raw pixels. These models are simple in an effort to facilitate understanding. For a more production-strength A2C check out [this model](https://github.com/rgilman33/baselines-A2C) converted from OpenAI baselines.
 
@@ -12,10 +12,7 @@ Notebooks:
 
 0) MC A2C which is also trained to predict its own next state and reward. Currently being used for experiments in transfer learning, prediction, data generation. If a model can predict its own future states, can it use this predictor to generate data for "mental training"?
 
-For a deeper dive in deep RL, these are my favorite resources:
 
-[Reinforcement Learning: An Introduction. Barto & Sutton](http://ufal.mff.cuni.cz/~straka/courses/npfl114/2016/sutton-bookdraft2016sep.pdf)
+## Credits
 
-[David Silver's course](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html)
-
-[Denny Britz' RL repo](https://github.com/dennybritz/reinforcement-learning)
+Forked from https://github.com/rgilman33/simple-A2C and adopted for the workshop.
